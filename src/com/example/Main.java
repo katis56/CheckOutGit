@@ -13,5 +13,6 @@ public class Main {
         System.out.println("podaj imie: ");
         Scanner scanner = new Scanner(System.in);
         String imie = scanner.next();
+        System.out.println("Twoje imie to: " + imie);
     }
 }
