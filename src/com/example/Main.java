@@ -1,5 +1,7 @@
 package com.example;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,5 +10,8 @@ public class Main {
         for (int i = 1; i <11 ; i++) {
             System.out.println(i);
         }
+        System.out.println("podaj imie: ");
+        Scanner scanner = new Scanner(System.in);
+        String imie = scanner.next();
     }
 }
